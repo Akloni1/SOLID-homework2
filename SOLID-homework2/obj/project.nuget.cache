@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VwAmAU8JXNjPvnCxh1BT61u7RVrWQeRZpArH/oY/pN5LnoTQ+yHjZ190hRZ+0vvcp3o+ieeOoBQQ21KLoVkWNQ==",
+  "dgSpecHash": "SV5Zsg8LHc0GFmpEwFWPSB0zYv0ADncoB3VUMn+Jm9WGgBIBRPTu0zLSHrSD2cHIGM6r49heNjy5210zweQqhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Михаил\\Desktop\\SOLID-homework2\\SOLID-homework2\\SOLID-homework2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Михаил\\Desktop\\GitProjects\\SOLID-homework2\\SOLID-homework2\\SOLID-homework2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Михаил\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

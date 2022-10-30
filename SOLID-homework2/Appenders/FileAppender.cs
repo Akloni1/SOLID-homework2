@@ -19,7 +19,7 @@ namespace SOLID_homework2.Appenders
 
         public void Write(string time, string message)
         {
-           _logFile.AddData(_layout.GetSimpleLayout(time, message));
+           _logFile.AddData(_layout.GetLayout(time, message));
         }
     }
 }

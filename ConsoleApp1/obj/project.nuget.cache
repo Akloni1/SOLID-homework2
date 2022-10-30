@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wgJHVoEMtsggZf4TRq8PX6Tz861RMVrr7X80z88DnXHJqa5p+hJvVGAlUkFYcfVf5LdlZN+6vI8GGfNCrRVvDg==",
+  "dgSpecHash": "PjHiOz/VnyTf1GPVVPoQSA+GlMWKraiibx8zI04OMzRJXkQL2gGTzkT+sVEOjNcur0K+IUDAvAzZDrNF9Qsb/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Михаил\\Desktop\\SOLID-homework2\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Михаил\\Desktop\\GitProjects\\SOLID-homework2\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Михаил\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

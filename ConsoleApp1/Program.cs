@@ -1,14 +1,21 @@
-﻿using SOLID_homework2.Appenders;
+﻿using SOLID_homework2;
+using SOLID_homework2.Appenders;
 using SOLID_homework2.Layout;
 using SOLID_homework2.Logger;
 
-ILayout simpleLayout = new SimpleLayout();
+var simpleLayout = new SimpleLayout();
 
-IAppender consoleAppender = new ConsoleAppender(simpleLayout);
-
-ILogger logger = new Logger(consoleAppender);
+var consoleAppender = new ConsoleAppender(simpleLayout);
 
 
+
+var file = new LogFile();
+
+var fileAppender = new FileAppender(simpleLayout, file);
+
+
+
+var logger = new Logger(consoleAppender, fileAppender);
 
 logger.Error("3/26/2022 2:08:11 PM", "Error parsing JSON.");
 

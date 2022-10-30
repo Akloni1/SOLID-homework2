@@ -6,7 +6,7 @@ namespace SOLID_homework2.Logger
     {
         IAppender _appender;
         IAppender _appender1;
-        public Logger(IAppender appender, IAppender? appender1 =null)
+        public Logger(IAppender appender, IAppender? appender1 = null)
         {
             _appender = appender;
             _appender1 = appender1;
@@ -15,7 +15,7 @@ namespace SOLID_homework2.Logger
         public void Error(string time, string message)
         {
             _appender.Write($"time: {time}  ", $"error: {message}");
-            if(_appender1!=null)
+            if (_appender1 != null)
                 _appender1.Write($"time: {time}  ", $"error: {message}");
         }
 

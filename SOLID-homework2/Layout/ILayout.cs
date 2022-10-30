@@ -8,6 +8,6 @@ namespace SOLID_homework2.Layout
 {
     public interface ILayout
     {
-        public string GetSimpleLayout(string time, string message);
+        public string GetLayout(string time, string message);
     }
 }
